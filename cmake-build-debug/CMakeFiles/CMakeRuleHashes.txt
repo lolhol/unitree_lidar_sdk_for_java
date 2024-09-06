@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+03b3e5a651bc660115be81a003bbce1d CMakeFiles/CleanUpJavaCompile
+9e18900147910e30df6dfb9aeb3f2b70 CMakeFiles/JavaCompile
+14813810957ce39b61a8230e4630c3f8 CMakeFiles/JavaJarify

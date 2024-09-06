@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-8756bbc61a268c03552d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "unitree_lidar_sdk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CleanUpJavaCompile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CleanUpJavaCompile-Release-ae92c286694909de0d57.json",
+					"name" : "CleanUpJavaCompile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "JavaCompile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-JavaCompile-Release-dee0ea4f9e28dbd3aef2.json",
+					"name" : "JavaCompile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "JavaJarify::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-JavaJarify-Release-cd80865a41eec3836745.json",
+					"name" : "JavaJarify",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_lidar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_lidar-Release-b6bd88c0d752a2f1051b.json",
+					"name" : "example_lidar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "example_lidar_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-example_lidar_udp-Release-09e70dfa818377869fe3.json",
+					"name" : "example_lidar_udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unilidar_publisher_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unilidar_publisher_udp-Release-da739c70bbc439ccc45e.json",
+					"name" : "unilidar_publisher_udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unilidar_subscriber_udp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unilidar_subscriber_udp-Release-8bfcc41ccc0430d0b354.json",
+					"name" : "unilidar_subscriber_udp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unitreelidar4java::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unitreelidar4java-Release-9b1b1d603c0bc763dfa1.json",
+					"name" : "unitreelidar4java",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug",
+		"source" : "/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

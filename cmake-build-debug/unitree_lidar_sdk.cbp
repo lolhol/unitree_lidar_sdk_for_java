@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="unitree_lidar_sdk"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_iostreams-1.74.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unitreelidar4java">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/libunitreelidar4java.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 unitreelidar4java"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unitreelidar4java/fast">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/libunitreelidar4java.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 unitreelidar4java/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_lidar">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_lidar"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_lidar/fast">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_lidar/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_lidar_udp">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar_udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_lidar_udp"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example_lidar_udp/fast">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/example_lidar_udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 example_lidar_udp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unilidar_publisher_udp">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_publisher_udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 unilidar_publisher_udp"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unilidar_publisher_udp/fast">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_publisher_udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 unilidar_publisher_udp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unilidar_subscriber_udp">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_subscriber_udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 unilidar_subscriber_udp"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unilidar_subscriber_udp/fast">
+				<Option output="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin/unilidar_subscriber_udp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include"/>
+					<Add directory="/usr/lib/jvm/java-1.17.0-openjdk-amd64/include/linux"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 unilidar_subscriber_udp/fast"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JavaCompile">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavaCompile"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JavaJarify">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 JavaJarify"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CleanUpJavaCompile">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 CleanUpJavaCompile"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j6 -f &quot;/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar.cpp">
+			<Option target="example_lidar"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/examples/example_lidar_udp.cpp">
+			<Option target="example_lidar_udp"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/examples/unilidar_publisher_udp.cpp">
+			<Option target="unilidar_publisher_udp"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/examples/unilidar_subscriber_udp.cpp">
+			<Option target="unilidar_subscriber_udp"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include/parse_range_auxiliary_data_to_cloud.h">
+			<Option target="unitreelidar4java"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include/udp_handler.h">
+			<Option target="unitreelidar4java"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include/unitree_lidar_sdk.h">
+			<Option target="unitreelidar4java"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include/unitree_lidar_sdk_config.h">
+			<Option target="unitreelidar4java"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/include/unitree_lidar_sdk_pcl.h">
+			<Option target="unitreelidar4java"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/java/brigero/jni_utils.h">
+			<Option target="unitreelidar4java"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/java/brigero/unitreelidar4java.cpp">
+			<Option target="unitreelidar4java"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.74.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_iostreams-1.74.0/boost_iostreams-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_iostreams-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_iostreams-1.74.0/boost_iostreams-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_iostreams-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_iostreams-1.74.0/libboost_iostreams-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_iostreams-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/ubuntu/Documents/unilidar_sdk/unitree_lidar_sdk/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_iostreams-1.74.0/libboost_iostreams-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_iostreams-1.74.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

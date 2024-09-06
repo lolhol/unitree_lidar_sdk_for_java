@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="UnitreeLidar4Java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UnitreeLidar4Java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++14  -O3 -Wall -DNDEBUG -shared -Wl,-soname,libunitreelidar4java.so -o libunitreelidar4java.so CMakeFiles/unitreelidar4java.dir/java/brigero/unitreelidar4java.cpp.o  -Wl,-Bstatic -lunitree_lidar_sdk -Wl,-Bdynamic 
